@@ -8,3 +8,6 @@ data LogicExpr
    | Disj LogicExpr LogicExpr
    | Impl LogicExpr LogicExpr
    deriving (Eq, Ord)
+
+-- possible boolean values
+bools = [True, False]
