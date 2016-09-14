@@ -1,8 +1,5 @@
 import Functions
+import Evaluate
 
 main = do
-    let res = plus 1 2
-    putStrLn $ "1+2 = " ++ show res
-
-    let res1 = a || b
-    putStrLn $ show res1
+    printtbl $ truthtable $ read "(a -> b) & (b -> a)"
